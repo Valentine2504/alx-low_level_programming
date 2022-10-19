@@ -1,17 +1,21 @@
-/*
- * this is a program to print a _putchar with a new
- * line character*/
-#include<main.h>
+#include "main.h"
+
+/**
+ * main - print _putchar, followed by a new line
+ * Return: 0
+ */
 
 int main(void)
 {
-	int msg[] = {(int) '_', (int) 'p', (int) 'u', (int) 't', (int) 'c', (int) 'h', (int) 'a', (int) 'r', (int) '\n'};
-	int len = sizeof(msg) / sizeof(int);
-	int a;
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
 
-	for(a = 0; a< len; a++)
-	{
-		_putchar(msg[a]);
-	}
-	reture (0);
+	return (0);
 }
