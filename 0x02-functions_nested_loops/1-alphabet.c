@@ -15,9 +15,4 @@ void print_alphabet(void)
 		_putchar(letter);
 	_putchar('\n');
 }
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
 
